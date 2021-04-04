@@ -1,0 +1,31 @@
+.settings {
+    .main-settings {
+        .col-md-8 {
+            .form-settings {
+                background-color: white;
+                color:black;
+                border-radius:5px;
+                box-shadow:0px 3px 3px rgba(0,0,0,.5);
+            }
+        }
+        .col-md-4 {
+            .mx-auto {
+                background-color: white;
+                box-shadow:0px 3px 3px rgba(0,0,0,.5);
+                color:black;
+                .p-profile {
+                    img {
+                        width:100px;
+                        height:100px;
+                        border-radius:50px;
+                        border:1px solid rgb(58, 58, 58);
+                        margin-top:-70px;
+                    }
+                }
+                .chart-bar {
+                    height:280px;
+                }
+            }
+        }
+    }
+}
