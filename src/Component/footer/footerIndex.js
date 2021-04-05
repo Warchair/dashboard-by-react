@@ -5,6 +5,16 @@ import github from '../image/social-media/logo-github.png';
 
 class FooterIndex extends React.Component {
 
+    myig = () => {
+        window.location.href = "https://instagram.com/anwar.chair";
+    }
+    mygithub = () => {
+        window.location.href = "https://github.com/Warchair";
+    }
+    myfb = () => {
+        window.location.href = "https://www.facebook.com/profile.php?id=100012292504457";
+    }
+
     render() {
         return(
             <footer>
@@ -36,9 +46,9 @@ class FooterIndex extends React.Component {
                         </div>
                         <div class="social-logo">
                             <ul >
-                                <li class="ml-auto"><img src={fb} alt=""/></li>
-                                <li class="ml-auto"><img src={ig} alt=""/></li>
-                                <li class="ml-auto"><img src={github} alt=""/></li>
+                                <li class="ml-auto" onClick={this.myfb}><img src={fb} alt=""/></li>
+                                <li class="ml-auto" onClick={this.myig}><img src={ig} alt=""/></li>
+                                <li class="ml-auto" onClick={this.mygithub}><img src={github} alt=""/></li>
                             </ul>
                         </div>
                 </div>

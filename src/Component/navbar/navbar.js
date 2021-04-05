@@ -63,8 +63,8 @@ class NavbarIndex extends React.Component {
                             <NavItem className="ml-3">
                                 <NavLink href="">ABOUT</NavLink>
                             </NavItem>
-                            <NavItem className="ml-3">
-                                <NavLink href="">GITHUB</NavLink>
+                            <NavItem className="ml-3" >
+                                <NavLink href="https://github.com/Warchair">GITHUB</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar className="ml-3">
                                 <DropdownToggle nav caret>
