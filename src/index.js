@@ -15,10 +15,10 @@ import './css/main.css';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/admin" component={Admin} />
-      <Route path="/auth" component={Auth} />
-      <Route path="/" exact component={Index} />
-      <Redirect from="*" to="/" />
+      <Route path="/dashboard-by-react/admin" component={Admin} />
+      <Route path="/dashboard-by-react/auth" component={Auth} />
+      <Route path="/dashboard-by-react/" exact component={Index} />
+      <Redirect from="*" to="/dashboard-by-react" />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
